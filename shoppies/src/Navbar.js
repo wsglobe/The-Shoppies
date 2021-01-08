@@ -12,6 +12,14 @@ export default function Navbar(props) {
       <NavLink to="/" className="nav-brand">
         The Shoppies Award
       </NavLink>
+      <ul>
+        <li className="nav-item">
+          <NavLink exact
+          activeClassName="active" to="/">
+            Home
+          </NavLink>
+        </li>
+      </ul>
     </nav>
   )
 }
