@@ -25,13 +25,14 @@ export default function Navbar(props) {
             Search
           </NavLink>
         </li>
-        <li className="nav-item">
-          <NavLink exact
-          activeClassName="active" to="/search">
-            Movies
+        <li>
+          <NavLink to="/movies"
+          className="nav-item nav-movies btn
+          btn-accent">
+            Movies ({movieCount})
           </NavLink>
         </li>
       </ul>
     </nav>
-  )
+  );
 }
