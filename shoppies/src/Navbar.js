@@ -25,6 +25,12 @@ export default function Navbar(props) {
             Search
           </NavLink>
         </li>
+        <li className="nav-item">
+          <NavLink exact
+          activeClassName="active" to="/search">
+            Movies
+          </NavLink>
+        </li>
       </ul>
     </nav>
   )
