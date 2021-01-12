@@ -7,6 +7,7 @@ import Movies from "./Movies.js";
 export default function App() {
   return (
     <BrowserRouter>
+    <Navbar />
     <div className="container">
       <Switch>
         <Route exact path="/">
